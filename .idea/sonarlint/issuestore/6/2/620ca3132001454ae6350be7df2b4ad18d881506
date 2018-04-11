@@ -1,0 +1,20 @@
+
+`squid:S2147"DCombine this catch with the one at line 81, which has the same body.(Ã‡²ö8§çˆ«,
+Fsquid:S00108")Either remove or fill this block of code.(ŸäÁ‚8­–¨ˆ«,
+Fsquid:S00108")Either remove or fill this block of code.(ï­£Ä8Ş‡‹«,
+Fsquid:S00108")Either remove or fill this block of code.(ï­£Ä8Õ„Èˆ«,
+Ksquid:S00108")Either remove or fill this block of code.(ÊÊÆƒüÿÿÿÿ8§çˆ«,
+`squid:S2147"DCombine this catch with the one at line 58, which has the same body.(ŸäÁ‚8…êÅˆ«,
+~squid:S4087"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(÷²Õ8€ÿÅˆ«,
+Fsquid:S00108")Either remove or fill this block of code.(Ã‡²ö8§çˆ«,
+`squid:S2147"DCombine this catch with the one at line 81, which has the same body.(ï­£Ä8§çˆ«,
+`squid:S2147"DCombine this catch with the one at line 98, which has the same body.(ï­£Ä8Õ„Èˆ«,
+Fsquid:S00108")Either remove or fill this block of code.(– ´ç8­–¨ˆ«,
+`squid:S2147"DCombine this catch with the one at line 98, which has the same body.(Ã‡²ö8Õ„Èˆ«,
+Ksquid:S00108")Either remove or fill this block of code.(ÊÊÆƒüÿÿÿÿ8Õ„Èˆ«,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ĞÒô8†ëí‹«,
+Fsquid:S00108")Either remove or fill this block of code.(Ã‡²ö8Õ„Èˆ«,
+[squid:S3725":Replace this with a call to the "toFile().exists()" method(»¬şÿÿÿÿ8ÊÊ‹«,
+Fsquid:S00108")Either remove or fill this block of code.(ï­£Ä8§çˆ«,
+Bsquid:S1168"&Return an empty array instead of null.(¥¹ï8ñµâˆ«,
