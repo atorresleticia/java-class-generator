@@ -1,0 +1,1372 @@
+{
+  "customers": [
+      {
+          "id": "a0f664ae-77ad-4087-9414-2149a71e588b",
+          "createdAt": "2017-11-23T17:43:06.270Z",
+          "updatedAt": "2017-11-23T17:43:06.270Z",
+          "active": false,
+          "name": "Customer api service - 2581511458990",
+          "customerSince": "2017-11-23",
+          "customerIdentificationDocuments": [],
+          "customerPhones": [],
+          "customerEmails": [],
+          "locations": [
+              {
+                  "id": "3ceb6983-eecc-41b2-bc89-ac37a4280b7c",
+                  "createdAt": "2017-11-23T17:43:06.273Z",
+                  "updatedAt": "2017-11-23T17:43:06.273Z",
+                  "customer": {
+                      "id": "a0f664ae-77ad-4087-9414-2149a71e588b",
+                      "customerIdentificationDocuments": [],
+                      "customerPhones": [],
+                      "customerEmails": [],
+                      "locations": [],
+                      "customerGroups": []
+                  },
+                  "locationTypes": [],
+                  "locationBusinessLines": [],
+                  "active": true,
+                  "headquarter": false,
+                  "description": "Local api service - 1311511458990",
+                  "standard": false,
+                  "locationPhones": [],
+                  "locationEmails": [],
+                  "areas": [],
+                  "locationIdentificationDocuments": [],
+                  "centralPointMappingId": "5e2c7ee9-c5b8-473e-b429-16dd3dc1b8f1"
+              }
+          ],
+          "customerGroups": []
+      },
+      {
+          "id": "38d572e4-2bb9-4ac0-90c8-d449736b75bd",
+          "createdAt": "2017-11-23T17:43:07.760Z",
+          "updatedAt": "2017-11-23T17:43:07.760Z",
+          "active": true,
+          "name": "Customer api service - 1361511458992",
+          "customerSince": "2017-11-23",
+          "customerIdentificationDocuments": [],
+          "customerPhones": [],
+          "customerEmails": [],
+          "locations": [
+              {
+                  "id": "72a72295-9d2d-45db-af94-27fab2da7f97",
+                  "createdAt": "2017-11-23T17:43:07.761Z",
+                  "updatedAt": "2017-11-23T17:43:07.761Z",
+                  "customer": {
+                      "id": "38d572e4-2bb9-4ac0-90c8-d449736b75bd",
+                      "customerIdentificationDocuments": [],
+                      "customerPhones": [],
+                      "customerEmails": [],
+                      "locations": [],
+                      "customerGroups": []
+                  },
+                  "locationTypes": [],
+                  "locationBusinessLines": [],
+                  "active": false,
+                  "headquarter": false,
+                  "description": "Local api service - 3901511458992",
+                  "standard": false,
+                  "locationPhones": [],
+                  "locationEmails": [],
+                  "areas": [],
+                  "locationIdentificationDocuments": [],
+                  "centralPointMappingId": "5e2c7ee9-c5b8-473e-b429-16dd3dc1b8f1"
+              }
+          ],
+          "customerGroups": []
+      },
+      {
+          "id": "fdf94366-cfe5-42c1-af29-5d1f6013f6f3",
+          "createdAt": "2017-11-23T17:43:09.372Z",
+          "updatedAt": "2017-11-23T17:43:09.372Z",
+          "active": true,
+          "name": "Customer api service - 2931511458993",
+          "customerSince": "2017-11-23",
+          "customerIdentificationDocuments": [],
+          "customerPhones": [],
+          "customerEmails": [],
+          "locations": [
+              {
+                  "id": "f3a5f22a-d26b-439d-88cd-04b00d40aa6f",
+                  "createdAt": "2017-11-23T17:43:09.373Z",
+                  "updatedAt": "2017-11-23T17:43:09.373Z",
+                  "customer": {
+                      "id": "fdf94366-cfe5-42c1-af29-5d1f6013f6f3",
+                      "customerIdentificationDocuments": [],
+                      "customerPhones": [],
+                      "customerEmails": [],
+                      "locations": [],
+                      "customerGroups": []
+                  },
+                  "locationTypes": [],
+                  "locationBusinessLines": [],
+                  "active": false,
+                  "headquarter": false,
+                  "description": "Local api service - 9681511458993",
+                  "standard": false,
+                  "locationPhones": [],
+                  "locationEmails": [],
+                  "areas": [],
+                  "locationIdentificationDocuments": [],
+                  "centralPointMappingId": "5e2c7ee9-c5b8-473e-b429-16dd3dc1b8f1"
+              }
+          ],
+          "customerGroups": []
+      },
+      {
+          "id": "021a5f09-9981-4029-a7c1-f7e3ab0eef18",
+          "createdAt": "2017-11-23T17:43:10.757Z",
+          "updatedAt": "2017-11-23T17:43:10.757Z",
+          "active": true,
+          "name": "Customer active service - 3291511458995",
+          "customerSince": "2017-11-23",
+          "customerIdentificationDocuments": [],
+          "customerPhones": [],
+          "customerEmails": [],
+          "locations": [
+              {
+                  "id": "d1234e42-cb85-4292-ac75-c00a8632f59b",
+                  "createdAt": "2017-11-23T17:43:10.758Z",
+                  "updatedAt": "2017-11-23T17:43:10.758Z",
+                  "customer": {
+                      "id": "021a5f09-9981-4029-a7c1-f7e3ab0eef18",
+                      "customerIdentificationDocuments": [],
+                      "customerPhones": [],
+                      "customerEmails": [],
+                      "locations": [],
+                      "customerGroups": []
+                  },
+                  "locationTypes": [],
+                  "locationBusinessLines": [],
+                  "active": true,
+                  "headquarter": false,
+                  "description": "Location 1 active - 6311511458995",
+                  "standard": false,
+                  "locationPhones": [],
+                  "locationEmails": [],
+                  "areas": [],
+                  "locationIdentificationDocuments": [],
+                  "centralPointMappingId": "5e2c7ee9-c5b8-473e-b429-16dd3dc1b8f1"
+              },
+              {
+                  "id": "5b61013c-504c-4983-acac-c5e4f7a04120",
+                  "createdAt": "2017-11-23T17:43:10.758Z",
+                  "updatedAt": "2017-11-23T17:43:10.758Z",
+                  "customer": {
+                      "id": "021a5f09-9981-4029-a7c1-f7e3ab0eef18",
+                      "customerIdentificationDocuments": [],
+                      "customerPhones": [],
+                      "customerEmails": [],
+                      "locations": [],
+                      "customerGroups": []
+                  },
+                  "locationTypes": [],
+                  "locationBusinessLines": [],
+                  "active": false,
+                  "headquarter": false,
+                  "description": "Location 2 inactive - 9681511458995",
+                  "standard": false,
+                  "locationPhones": [],
+                  "locationEmails": [],
+                  "areas": [],
+                  "locationIdentificationDocuments": []
+              },
+              {
+                  "id": "f53a483a-d9cb-4e29-b5d7-6ebf9e04ee27",
+                  "createdAt": "2017-11-23T17:43:10.758Z",
+                  "updatedAt": "2017-11-23T17:43:10.758Z",
+                  "customer": {
+                      "id": "021a5f09-9981-4029-a7c1-f7e3ab0eef18",
+                      "customerIdentificationDocuments": [],
+                      "customerPhones": [],
+                      "customerEmails": [],
+                      "locations": [],
+                      "customerGroups": []
+                  },
+                  "locationTypes": [],
+                  "locationBusinessLines": [],
+                  "active": true,
+                  "headquarter": false,
+                  "description": "Location 3 active - 8401511458995",
+                  "standard": false,
+                  "locationPhones": [],
+                  "locationEmails": [],
+                  "areas": [],
+                  "locationIdentificationDocuments": []
+              }
+          ],
+          "customerGroups": []
+      },
+      {
+          "id": "4a24f6db-806b-472c-b35c-83af3a4b293a",
+          "createdAt": "2017-11-23T17:43:14.050Z",
+          "updatedAt": "2017-11-23T17:43:15.035Z",
+          "active": true,
+          "name": "Customer api service - 6191511458998",
+          "customerSince": "2017-11-23",
+          "customerIdentificationDocuments": [],
+          "customerPhones": [],
+          "customerEmails": [],
+          "locations": [],
+          "customerGroups": []
+      },
+      {
+          "id": "665cbd23-bdbb-41a9-a7ed-e93f25014a77",
+          "createdAt": "2017-11-23T17:43:15.291Z",
+          "updatedAt": "2017-11-23T17:43:15.291Z",
+          "active": true,
+          "name": "Customer api service - 8711511458999",
+          "customerSince": "2017-11-23",
+          "customerIdentificationDocuments": [],
+          "customerPhones": [],
+          "customerEmails": [],
+          "locations": [
+              {
+                  "id": "50e05730-96db-4064-8cfd-ec27bb57091d",
+                  "createdAt": "2017-11-23T17:43:15.292Z",
+                  "updatedAt": "2017-11-23T17:43:15.292Z",
+                  "customer": {
+                      "id": "665cbd23-bdbb-41a9-a7ed-e93f25014a77",
+                      "customerIdentificationDocuments": [],
+                      "customerPhones": [],
+                      "customerEmails": [],
+                      "locations": [],
+                      "customerGroups": []
+                  },
+                  "locationTypes": [],
+                  "locationBusinessLines": [],
+                  "active": true,
+                  "headquarter": false,
+                  "description": "Local api service - 6241511458999",
+                  "standard": false,
+                  "locationPhones": [],
+                  "locationEmails": [],
+                  "areas": [],
+                  "locationIdentificationDocuments": [],
+                  "centralPointMappingId": "5e2c7ee9-c5b8-473e-b429-16dd3dc1b8f1"
+              }
+          ],
+          "customerGroups": []
+      },
+      {
+          "id": "04e08bbf-bbca-462e-baa8-859ead2343b2",
+          "createdAt": "2017-11-23T17:43:16.654Z",
+          "updatedAt": "2017-11-23T17:43:16.654Z",
+          "active": true,
+          "name": "Customer active service - 7801511459001",
+          "customerSince": "2017-11-23",
+          "customerIdentificationDocuments": [],
+          "customerPhones": [],
+          "customerEmails": [],
+          "locations": [
+              {
+                  "id": "f1504756-e8ce-489a-8fda-3e34423f0458",
+                  "createdAt": "2017-11-23T17:43:16.655Z",
+                  "updatedAt": "2017-11-23T17:43:16.655Z",
+                  "customer": {
+                      "id": "04e08bbf-bbca-462e-baa8-859ead2343b2",
+                      "customerIdentificationDocuments": [],
+                      "customerPhones": [],
+                      "customerEmails": [],
+                      "locations": [],
+                      "customerGroups": []
+                  },
+                  "locationTypes": [],
+                  "locationBusinessLines": [],
+                  "active": true,
+                  "headquarter": false,
+                  "description": "Location active service - 3891511459001",
+                  "standard": false,
+                  "locationPhones": [],
+                  "locationEmails": [],
+                  "areas": [],
+                  "locationIdentificationDocuments": []
+              }
+          ],
+          "customerGroups": []
+      },
+      {
+          "id": "328b256f-f7e6-4f81-874a-17f2b532201f",
+          "createdAt": "2017-11-23T17:46:33.704Z",
+          "updatedAt": "2017-11-23T17:46:33.704Z",
+          "active": true,
+          "name": "Customer active service - 6971511459197",
+          "customerSince": "2017-11-23",
+          "customerIdentificationDocuments": [],
+          "customerPhones": [],
+          "customerEmails": [],
+          "locations": [
+              {
+                  "id": "bb2e9ed3-8b2f-4b58-a396-f84c853e1112",
+                  "createdAt": "2017-11-23T17:46:33.705Z",
+                  "updatedAt": "2017-11-23T17:46:33.705Z",
+                  "customer": {
+                      "id": "328b256f-f7e6-4f81-874a-17f2b532201f",
+                      "customerIdentificationDocuments": [],
+                      "customerPhones": [],
+                      "customerEmails": [],
+                      "locations": [],
+                      "customerGroups": []
+                  },
+                  "locationTypes": [],
+                  "locationBusinessLines": [],
+                  "active": true,
+                  "headquarter": false,
+                  "description": "Location put1 service - 8131511459197",
+                  "standard": false,
+                  "locationPhones": [],
+                  "locationEmails": [],
+                  "areas": [],
+                  "locationIdentificationDocuments": [],
+                  "centralPointMappingId": "5e2c7ee9-c5b8-473e-b429-16dd3dc1b8f1"
+              },
+              {
+                  "id": "ec37268a-a76a-4208-911e-1a743f39dfef",
+                  "createdAt": "2017-11-23T17:46:33.705Z",
+                  "updatedAt": "2017-11-23T17:46:33.705Z",
+                  "customer": {
+                      "id": "328b256f-f7e6-4f81-874a-17f2b532201f",
+                      "customerIdentificationDocuments": [],
+                      "customerPhones": [],
+                      "customerEmails": [],
+                      "locations": [],
+                      "customerGroups": []
+                  },
+                  "locationTypes": [],
+                  "locationBusinessLines": [],
+                  "active": false,
+                  "headquarter": false,
+                  "description": "Location put2 service - 7861511459197",
+                  "standard": false,
+                  "locationPhones": [],
+                  "locationEmails": [],
+                  "areas": [],
+                  "locationIdentificationDocuments": []
+              }
+          ],
+          "customerGroups": []
+      }
+  ],
+  "locations": [
+      {
+          "id": "3ceb6983-eecc-41b2-bc89-ac37a4280b7c",
+          "createdAt": "2017-11-23T17:43:06.273Z",
+          "updatedAt": "2017-11-23T17:43:06.273Z",
+          "customer": {
+              "id": "a0f664ae-77ad-4087-9414-2149a71e588b",
+              "customerIdentificationDocuments": [],
+              "customerPhones": [],
+              "customerEmails": [],
+              "locations": [],
+              "customerGroups": []
+          },
+          "locationTypes": [],
+          "locationBusinessLines": [],
+          "active": true,
+          "headquarter": false,
+          "description": "Local api service - 1311511458990",
+          "standard": false,
+          "locationPhones": [],
+          "locationEmails": [],
+          "areas": [],
+          "locationIdentificationDocuments": [],
+          "centralPointMappingId": "5e2c7ee9-c5b8-473e-b429-16dd3dc1b8f1"
+      },
+      {
+          "id": "72a72295-9d2d-45db-af94-27fab2da7f97",
+          "createdAt": "2017-11-23T17:43:07.761Z",
+          "updatedAt": "2017-11-23T17:43:07.761Z",
+          "customer": {
+              "id": "38d572e4-2bb9-4ac0-90c8-d449736b75bd",
+              "customerIdentificationDocuments": [],
+              "customerPhones": [],
+              "customerEmails": [],
+              "locations": [],
+              "customerGroups": []
+          },
+          "locationTypes": [],
+          "locationBusinessLines": [],
+          "active": false,
+          "headquarter": false,
+          "description": "Local api service - 3901511458992",
+          "standard": false,
+          "locationPhones": [],
+          "locationEmails": [],
+          "areas": [],
+          "locationIdentificationDocuments": [],
+          "centralPointMappingId": "5e2c7ee9-c5b8-473e-b429-16dd3dc1b8f1"
+      },
+      {
+          "id": "f3a5f22a-d26b-439d-88cd-04b00d40aa6f",
+          "createdAt": "2017-11-23T17:43:09.373Z",
+          "updatedAt": "2017-11-23T17:43:09.373Z",
+          "customer": {
+              "id": "fdf94366-cfe5-42c1-af29-5d1f6013f6f3",
+              "customerIdentificationDocuments": [],
+              "customerPhones": [],
+              "customerEmails": [],
+              "locations": [],
+              "customerGroups": []
+          },
+          "locationTypes": [],
+          "locationBusinessLines": [],
+          "active": false,
+          "headquarter": false,
+          "description": "Local api service - 9681511458993",
+          "standard": false,
+          "locationPhones": [],
+          "locationEmails": [],
+          "areas": [],
+          "locationIdentificationDocuments": [],
+          "centralPointMappingId": "5e2c7ee9-c5b8-473e-b429-16dd3dc1b8f1"
+      },
+      {
+          "id": "5b61013c-504c-4983-acac-c5e4f7a04120",
+          "createdAt": "2017-11-23T17:43:10.758Z",
+          "updatedAt": "2017-11-23T17:43:10.758Z",
+          "customer": {
+              "id": "021a5f09-9981-4029-a7c1-f7e3ab0eef18",
+              "customerIdentificationDocuments": [],
+              "customerPhones": [],
+              "customerEmails": [],
+              "locations": [],
+              "customerGroups": []
+          },
+          "locationTypes": [],
+          "locationBusinessLines": [],
+          "active": false,
+          "headquarter": false,
+          "description": "Location 2 inactive - 9681511458995",
+          "standard": false,
+          "locationPhones": [],
+          "locationEmails": [],
+          "areas": [],
+          "locationIdentificationDocuments": []
+      },
+      {
+          "id": "d1234e42-cb85-4292-ac75-c00a8632f59b",
+          "createdAt": "2017-11-23T17:43:10.758Z",
+          "updatedAt": "2017-11-23T17:43:10.758Z",
+          "customer": {
+              "id": "021a5f09-9981-4029-a7c1-f7e3ab0eef18",
+              "customerIdentificationDocuments": [],
+              "customerPhones": [],
+              "customerEmails": [],
+              "locations": [],
+              "customerGroups": []
+          },
+          "locationTypes": [],
+          "locationBusinessLines": [],
+          "active": true,
+          "headquarter": false,
+          "description": "Location 1 active - 6311511458995",
+          "standard": false,
+          "locationPhones": [],
+          "locationEmails": [],
+          "areas": [],
+          "locationIdentificationDocuments": [],
+          "centralPointMappingId": "5e2c7ee9-c5b8-473e-b429-16dd3dc1b8f1"
+      },
+      {
+          "id": "f53a483a-d9cb-4e29-b5d7-6ebf9e04ee27",
+          "createdAt": "2017-11-23T17:43:10.758Z",
+          "updatedAt": "2017-11-23T17:43:10.758Z",
+          "customer": {
+              "id": "021a5f09-9981-4029-a7c1-f7e3ab0eef18",
+              "customerIdentificationDocuments": [],
+              "customerPhones": [],
+              "customerEmails": [],
+              "locations": [],
+              "customerGroups": []
+          },
+          "locationTypes": [],
+          "locationBusinessLines": [],
+          "active": true,
+          "headquarter": false,
+          "description": "Location 3 active - 8401511458995",
+          "standard": false,
+          "locationPhones": [],
+          "locationEmails": [],
+          "areas": [],
+          "locationIdentificationDocuments": []
+      },
+      {
+          "id": "50e05730-96db-4064-8cfd-ec27bb57091d",
+          "createdAt": "2017-11-23T17:43:15.292Z",
+          "updatedAt": "2017-11-23T17:43:15.292Z",
+          "customer": {
+              "id": "665cbd23-bdbb-41a9-a7ed-e93f25014a77",
+              "customerIdentificationDocuments": [],
+              "customerPhones": [],
+              "customerEmails": [],
+              "locations": [],
+              "customerGroups": []
+          },
+          "locationTypes": [],
+          "locationBusinessLines": [],
+          "active": true,
+          "headquarter": false,
+          "description": "Local api service - 6241511458999",
+          "standard": false,
+          "locationPhones": [],
+          "locationEmails": [],
+          "areas": [],
+          "locationIdentificationDocuments": [],
+          "centralPointMappingId": "5e2c7ee9-c5b8-473e-b429-16dd3dc1b8f1"
+      },
+      {
+          "id": "f1504756-e8ce-489a-8fda-3e34423f0458",
+          "createdAt": "2017-11-23T17:43:16.655Z",
+          "updatedAt": "2017-11-23T17:43:16.655Z",
+          "customer": {
+              "id": "04e08bbf-bbca-462e-baa8-859ead2343b2",
+              "customerIdentificationDocuments": [],
+              "customerPhones": [],
+              "customerEmails": [],
+              "locations": [],
+              "customerGroups": []
+          },
+          "locationTypes": [],
+          "locationBusinessLines": [],
+          "active": true,
+          "headquarter": false,
+          "description": "Location active service - 3891511459001",
+          "standard": false,
+          "locationPhones": [],
+          "locationEmails": [],
+          "areas": [],
+          "locationIdentificationDocuments": []
+      },
+      {
+          "id": "bb2e9ed3-8b2f-4b58-a396-f84c853e1112",
+          "createdAt": "2017-11-23T17:46:33.705Z",
+          "updatedAt": "2017-11-23T17:46:33.705Z",
+          "customer": {
+              "id": "328b256f-f7e6-4f81-874a-17f2b532201f",
+              "customerIdentificationDocuments": [],
+              "customerPhones": [],
+              "customerEmails": [],
+              "locations": [],
+              "customerGroups": []
+          },
+          "locationTypes": [],
+          "locationBusinessLines": [],
+          "active": true,
+          "headquarter": false,
+          "description": "Location put1 service - 8131511459197",
+          "standard": false,
+          "locationPhones": [],
+          "locationEmails": [],
+          "areas": [],
+          "locationIdentificationDocuments": [],
+          "centralPointMappingId": "5e2c7ee9-c5b8-473e-b429-16dd3dc1b8f1"
+      },
+      {
+          "id": "ec37268a-a76a-4208-911e-1a743f39dfef",
+          "createdAt": "2017-11-23T17:46:33.705Z",
+          "updatedAt": "2017-11-23T17:46:33.705Z",
+          "customer": {
+              "id": "328b256f-f7e6-4f81-874a-17f2b532201f",
+              "customerIdentificationDocuments": [],
+              "customerPhones": [],
+              "customerEmails": [],
+              "locations": [],
+              "customerGroups": []
+          },
+          "locationTypes": [],
+          "locationBusinessLines": [],
+          "active": false,
+          "headquarter": false,
+          "description": "Location put2 service - 7861511459197",
+          "standard": false,
+          "locationPhones": [],
+          "locationEmails": [],
+          "areas": [],
+          "locationIdentificationDocuments": []
+      }
+  ],
+  "contacts": [
+      {
+          "id": "df3f3b48-3e1e-469e-825e-53047f25e1b5",
+          "createdAt": "2017-11-23T17:43:11.784Z",
+          "updatedAt": "2017-11-23T17:43:11.784Z",
+          "customer": {
+              "id": "021a5f09-9981-4029-a7c1-f7e3ab0eef18",
+              "createdAt": "2017-11-23T17:43:10.757Z",
+              "updatedAt": "2017-11-23T17:43:10.757Z",
+              "active": true,
+              "name": "Customer active service - 3291511458995",
+              "customerSince": "2017-11-23",
+              "customerIdentificationDocuments": [],
+              "customerPhones": [],
+              "customerEmails": [],
+              "locations": [
+                  {
+                      "id": "d1234e42-cb85-4292-ac75-c00a8632f59b",
+                      "createdAt": "2017-11-23T17:43:10.758Z",
+                      "updatedAt": "2017-11-23T17:43:10.758Z",
+                      "customer": {
+                          "id": "021a5f09-9981-4029-a7c1-f7e3ab0eef18",
+                          "customerIdentificationDocuments": [],
+                          "customerPhones": [],
+                          "customerEmails": [],
+                          "locations": [],
+                          "customerGroups": []
+                      },
+                      "locationTypes": [],
+                      "locationBusinessLines": [],
+                      "active": true,
+                      "headquarter": false,
+                      "description": "Location 1 active - 6311511458995",
+                      "standard": false,
+                      "locationPhones": [],
+                      "locationEmails": [],
+                      "areas": [],
+                      "locationIdentificationDocuments": [],
+                      "centralPointMappingId": "5e2c7ee9-c5b8-473e-b429-16dd3dc1b8f1"
+                  },
+                  {
+                      "id": "5b61013c-504c-4983-acac-c5e4f7a04120",
+                      "createdAt": "2017-11-23T17:43:10.758Z",
+                      "updatedAt": "2017-11-23T17:43:10.758Z",
+                      "customer": {
+                          "id": "021a5f09-9981-4029-a7c1-f7e3ab0eef18",
+                          "customerIdentificationDocuments": [],
+                          "customerPhones": [],
+                          "customerEmails": [],
+                          "locations": [],
+                          "customerGroups": []
+                      },
+                      "locationTypes": [],
+                      "locationBusinessLines": [],
+                      "active": false,
+                      "headquarter": false,
+                      "description": "Location 2 inactive - 9681511458995",
+                      "standard": false,
+                      "locationPhones": [],
+                      "locationEmails": [],
+                      "areas": [],
+                      "locationIdentificationDocuments": []
+                  },
+                  {
+                      "id": "f53a483a-d9cb-4e29-b5d7-6ebf9e04ee27",
+                      "createdAt": "2017-11-23T17:43:10.758Z",
+                      "updatedAt": "2017-11-23T17:43:10.758Z",
+                      "customer": {
+                          "id": "021a5f09-9981-4029-a7c1-f7e3ab0eef18",
+                          "customerIdentificationDocuments": [],
+                          "customerPhones": [],
+                          "customerEmails": [],
+                          "locations": [],
+                          "customerGroups": []
+                      },
+                      "locationTypes": [],
+                      "locationBusinessLines": [],
+                      "active": true,
+                      "headquarter": false,
+                      "description": "Location 3 active - 8401511458995",
+                      "standard": false,
+                      "locationPhones": [],
+                      "locationEmails": [],
+                      "areas": [],
+                      "locationIdentificationDocuments": []
+                  }
+              ],
+              "customerGroups": []
+          },
+          "contactPhones": [],
+          "contactEmails": [],
+          "location": {
+              "id": "d1234e42-cb85-4292-ac75-c00a8632f59b",
+              "createdAt": "2017-11-23T17:43:10.758Z",
+              "updatedAt": "2017-11-23T17:43:10.758Z",
+              "customer": {
+                  "id": "021a5f09-9981-4029-a7c1-f7e3ab0eef18",
+                  "customerIdentificationDocuments": [],
+                  "customerPhones": [],
+                  "customerEmails": [],
+                  "locations": [],
+                  "customerGroups": []
+              },
+              "locationTypes": [],
+              "locationBusinessLines": [],
+              "active": true,
+              "headquarter": false,
+              "description": "Location 1 active - 6311511458995",
+              "standard": false,
+              "locationPhones": [],
+              "locationEmails": [],
+              "areas": [],
+              "locationIdentificationDocuments": [],
+              "centralPointMappingId": "5e2c7ee9-c5b8-473e-b429-16dd3dc1b8f1"
+          },
+          "active": true,
+          "name": "Contact active - 1201511458996"
+      },
+      {
+          "id": "0028e9a5-7e93-4c5f-91fa-4f1a13678141",
+          "createdAt": "2017-11-23T17:43:12.579Z",
+          "updatedAt": "2017-11-23T17:43:12.579Z",
+          "customer": {
+              "id": "021a5f09-9981-4029-a7c1-f7e3ab0eef18",
+              "createdAt": "2017-11-23T17:43:10.757Z",
+              "updatedAt": "2017-11-23T17:43:10.757Z",
+              "active": true,
+              "name": "Customer active service - 3291511458995",
+              "customerSince": "2017-11-23",
+              "customerIdentificationDocuments": [],
+              "customerPhones": [],
+              "customerEmails": [],
+              "locations": [
+                  {
+                      "id": "d1234e42-cb85-4292-ac75-c00a8632f59b",
+                      "createdAt": "2017-11-23T17:43:10.758Z",
+                      "updatedAt": "2017-11-23T17:43:10.758Z",
+                      "customer": {
+                          "id": "021a5f09-9981-4029-a7c1-f7e3ab0eef18",
+                          "customerIdentificationDocuments": [],
+                          "customerPhones": [],
+                          "customerEmails": [],
+                          "locations": [],
+                          "customerGroups": []
+                      },
+                      "locationTypes": [],
+                      "locationBusinessLines": [],
+                      "active": true,
+                      "headquarter": false,
+                      "description": "Location 1 active - 6311511458995",
+                      "standard": false,
+                      "locationPhones": [],
+                      "locationEmails": [],
+                      "areas": [],
+                      "locationIdentificationDocuments": [],
+                      "centralPointMappingId": "5e2c7ee9-c5b8-473e-b429-16dd3dc1b8f1"
+                  },
+                  {
+                      "id": "5b61013c-504c-4983-acac-c5e4f7a04120",
+                      "createdAt": "2017-11-23T17:43:10.758Z",
+                      "updatedAt": "2017-11-23T17:43:10.758Z",
+                      "customer": {
+                          "id": "021a5f09-9981-4029-a7c1-f7e3ab0eef18",
+                          "customerIdentificationDocuments": [],
+                          "customerPhones": [],
+                          "customerEmails": [],
+                          "locations": [],
+                          "customerGroups": []
+                      },
+                      "locationTypes": [],
+                      "locationBusinessLines": [],
+                      "active": false,
+                      "headquarter": false,
+                      "description": "Location 2 inactive - 9681511458995",
+                      "standard": false,
+                      "locationPhones": [],
+                      "locationEmails": [],
+                      "areas": [],
+                      "locationIdentificationDocuments": []
+                  },
+                  {
+                      "id": "f53a483a-d9cb-4e29-b5d7-6ebf9e04ee27",
+                      "createdAt": "2017-11-23T17:43:10.758Z",
+                      "updatedAt": "2017-11-23T17:43:10.758Z",
+                      "customer": {
+                          "id": "021a5f09-9981-4029-a7c1-f7e3ab0eef18",
+                          "customerIdentificationDocuments": [],
+                          "customerPhones": [],
+                          "customerEmails": [],
+                          "locations": [],
+                          "customerGroups": []
+                      },
+                      "locationTypes": [],
+                      "locationBusinessLines": [],
+                      "active": true,
+                      "headquarter": false,
+                      "description": "Location 3 active - 8401511458995",
+                      "standard": false,
+                      "locationPhones": [],
+                      "locationEmails": [],
+                      "areas": [],
+                      "locationIdentificationDocuments": []
+                  }
+              ],
+              "customerGroups": []
+          },
+          "contactPhones": [],
+          "contactEmails": [],
+          "location": {
+              "id": "d1234e42-cb85-4292-ac75-c00a8632f59b",
+              "createdAt": "2017-11-23T17:43:10.758Z",
+              "updatedAt": "2017-11-23T17:43:10.758Z",
+              "customer": {
+                  "id": "021a5f09-9981-4029-a7c1-f7e3ab0eef18",
+                  "customerIdentificationDocuments": [],
+                  "customerPhones": [],
+                  "customerEmails": [],
+                  "locations": [],
+                  "customerGroups": []
+              },
+              "locationTypes": [],
+              "locationBusinessLines": [],
+              "active": true,
+              "headquarter": false,
+              "description": "Location 1 active - 6311511458995",
+              "standard": false,
+              "locationPhones": [],
+              "locationEmails": [],
+              "areas": [],
+              "locationIdentificationDocuments": [],
+              "centralPointMappingId": "5e2c7ee9-c5b8-473e-b429-16dd3dc1b8f1"
+          },
+          "active": false,
+          "name": "Contact inactive - 8501511458996"
+      },
+      {
+          "id": "0c721bfb-3c39-49b8-b443-0261b7ced467",
+          "createdAt": "2017-11-23T17:43:17.487Z",
+          "updatedAt": "2017-11-23T17:43:17.487Z",
+          "customer": {
+              "id": "04e08bbf-bbca-462e-baa8-859ead2343b2",
+              "createdAt": "2017-11-23T17:43:16.654Z",
+              "updatedAt": "2017-11-23T17:43:16.654Z",
+              "active": true,
+              "name": "Customer active service - 7801511459001",
+              "customerSince": "2017-11-23",
+              "customerIdentificationDocuments": [],
+              "customerPhones": [],
+              "customerEmails": [],
+              "locations": [
+                  {
+                      "id": "f1504756-e8ce-489a-8fda-3e34423f0458",
+                      "createdAt": "2017-11-23T17:43:16.655Z",
+                      "updatedAt": "2017-11-23T17:43:16.655Z",
+                      "customer": {
+                          "id": "04e08bbf-bbca-462e-baa8-859ead2343b2",
+                          "customerIdentificationDocuments": [],
+                          "customerPhones": [],
+                          "customerEmails": [],
+                          "locations": [],
+                          "customerGroups": []
+                      },
+                      "locationTypes": [],
+                      "locationBusinessLines": [],
+                      "active": true,
+                      "headquarter": false,
+                      "description": "Location active service - 3891511459001",
+                      "standard": false,
+                      "locationPhones": [],
+                      "locationEmails": [],
+                      "areas": [],
+                      "locationIdentificationDocuments": []
+                  }
+              ],
+              "customerGroups": []
+          },
+          "contactPhones": [],
+          "contactEmails": [],
+          "location": {
+              "id": "f1504756-e8ce-489a-8fda-3e34423f0458",
+              "createdAt": "2017-11-23T17:43:16.655Z",
+              "updatedAt": "2017-11-23T17:43:16.655Z",
+              "customer": {
+                  "id": "04e08bbf-bbca-462e-baa8-859ead2343b2",
+                  "customerIdentificationDocuments": [],
+                  "customerPhones": [],
+                  "customerEmails": [],
+                  "locations": [],
+                  "customerGroups": []
+              },
+              "locationTypes": [],
+              "locationBusinessLines": [],
+              "active": true,
+              "headquarter": false,
+              "description": "Location active service - 3891511459001",
+              "standard": false,
+              "locationPhones": [],
+              "locationEmails": [],
+              "areas": [],
+              "locationIdentificationDocuments": []
+          },
+          "active": true,
+          "name": "Contact 2 active - 9431511459002"
+      },
+      {
+          "id": "07841976-904a-43c8-99ec-08494c241c45",
+          "createdAt": "2017-11-23T17:43:17.956Z",
+          "updatedAt": "2017-11-23T17:43:17.956Z",
+          "customer": {
+              "id": "021a5f09-9981-4029-a7c1-f7e3ab0eef18",
+              "createdAt": "2017-11-23T17:43:10.757Z",
+              "updatedAt": "2017-11-23T17:43:10.757Z",
+              "active": true,
+              "name": "Customer active service - 3291511458995",
+              "customerSince": "2017-11-23",
+              "customerIdentificationDocuments": [],
+              "customerPhones": [],
+              "customerEmails": [],
+              "locations": [
+                  {
+                      "id": "d1234e42-cb85-4292-ac75-c00a8632f59b",
+                      "createdAt": "2017-11-23T17:43:10.758Z",
+                      "updatedAt": "2017-11-23T17:43:10.758Z",
+                      "customer": {
+                          "id": "021a5f09-9981-4029-a7c1-f7e3ab0eef18",
+                          "customerIdentificationDocuments": [],
+                          "customerPhones": [],
+                          "customerEmails": [],
+                          "locations": [],
+                          "customerGroups": []
+                      },
+                      "locationTypes": [],
+                      "locationBusinessLines": [],
+                      "active": true,
+                      "headquarter": false,
+                      "description": "Location 1 active - 6311511458995",
+                      "standard": false,
+                      "locationPhones": [],
+                      "locationEmails": [],
+                      "areas": [],
+                      "locationIdentificationDocuments": [],
+                      "centralPointMappingId": "5e2c7ee9-c5b8-473e-b429-16dd3dc1b8f1"
+                  },
+                  {
+                      "id": "5b61013c-504c-4983-acac-c5e4f7a04120",
+                      "createdAt": "2017-11-23T17:43:10.758Z",
+                      "updatedAt": "2017-11-23T17:43:10.758Z",
+                      "customer": {
+                          "id": "021a5f09-9981-4029-a7c1-f7e3ab0eef18",
+                          "customerIdentificationDocuments": [],
+                          "customerPhones": [],
+                          "customerEmails": [],
+                          "locations": [],
+                          "customerGroups": []
+                      },
+                      "locationTypes": [],
+                      "locationBusinessLines": [],
+                      "active": false,
+                      "headquarter": false,
+                      "description": "Location 2 inactive - 9681511458995",
+                      "standard": false,
+                      "locationPhones": [],
+                      "locationEmails": [],
+                      "areas": [],
+                      "locationIdentificationDocuments": []
+                  },
+                  {
+                      "id": "f53a483a-d9cb-4e29-b5d7-6ebf9e04ee27",
+                      "createdAt": "2017-11-23T17:43:10.758Z",
+                      "updatedAt": "2017-11-23T17:43:10.758Z",
+                      "customer": {
+                          "id": "021a5f09-9981-4029-a7c1-f7e3ab0eef18",
+                          "customerIdentificationDocuments": [],
+                          "customerPhones": [],
+                          "customerEmails": [],
+                          "locations": [],
+                          "customerGroups": []
+                      },
+                      "locationTypes": [],
+                      "locationBusinessLines": [],
+                      "active": true,
+                      "headquarter": false,
+                      "description": "Location 3 active - 8401511458995",
+                      "standard": false,
+                      "locationPhones": [],
+                      "locationEmails": [],
+                      "areas": [],
+                      "locationIdentificationDocuments": []
+                  }
+              ],
+              "customerGroups": []
+          },
+          "contactPhones": [],
+          "contactEmails": [],
+          "location": {
+              "id": "d1234e42-cb85-4292-ac75-c00a8632f59b",
+              "createdAt": "2017-11-23T17:43:10.758Z",
+              "updatedAt": "2017-11-23T17:43:10.758Z",
+              "customer": {
+                  "id": "021a5f09-9981-4029-a7c1-f7e3ab0eef18",
+                  "customerIdentificationDocuments": [],
+                  "customerPhones": [],
+                  "customerEmails": [],
+                  "locations": [],
+                  "customerGroups": []
+              },
+              "locationTypes": [],
+              "locationBusinessLines": [],
+              "active": true,
+              "headquarter": false,
+              "description": "Location 1 active - 6311511458995",
+              "standard": false,
+              "locationPhones": [],
+              "locationEmails": [],
+              "areas": [],
+              "locationIdentificationDocuments": [],
+              "centralPointMappingId": "5e2c7ee9-c5b8-473e-b429-16dd3dc1b8f1"
+          },
+          "active": true,
+          "name": "Contact active - 7651511459002"
+      },
+      {
+          "id": "3cfec1dc-9887-4068-b3ec-9a35afb7f73a",
+          "createdAt": "2017-11-23T17:43:18.446Z",
+          "updatedAt": "2017-11-23T17:43:18.446Z",
+          "customer": {
+              "id": "021a5f09-9981-4029-a7c1-f7e3ab0eef18",
+              "createdAt": "2017-11-23T17:43:10.757Z",
+              "updatedAt": "2017-11-23T17:43:10.757Z",
+              "active": true,
+              "name": "Customer active service - 3291511458995",
+              "customerSince": "2017-11-23",
+              "customerIdentificationDocuments": [],
+              "customerPhones": [],
+              "customerEmails": [],
+              "locations": [
+                  {
+                      "id": "d1234e42-cb85-4292-ac75-c00a8632f59b",
+                      "createdAt": "2017-11-23T17:43:10.758Z",
+                      "updatedAt": "2017-11-23T17:43:10.758Z",
+                      "customer": {
+                          "id": "021a5f09-9981-4029-a7c1-f7e3ab0eef18",
+                          "customerIdentificationDocuments": [],
+                          "customerPhones": [],
+                          "customerEmails": [],
+                          "locations": [],
+                          "customerGroups": []
+                      },
+                      "locationTypes": [],
+                      "locationBusinessLines": [],
+                      "active": true,
+                      "headquarter": false,
+                      "description": "Location 1 active - 6311511458995",
+                      "standard": false,
+                      "locationPhones": [],
+                      "locationEmails": [],
+                      "areas": [],
+                      "locationIdentificationDocuments": [],
+                      "centralPointMappingId": "5e2c7ee9-c5b8-473e-b429-16dd3dc1b8f1"
+                  },
+                  {
+                      "id": "5b61013c-504c-4983-acac-c5e4f7a04120",
+                      "createdAt": "2017-11-23T17:43:10.758Z",
+                      "updatedAt": "2017-11-23T17:43:10.758Z",
+                      "customer": {
+                          "id": "021a5f09-9981-4029-a7c1-f7e3ab0eef18",
+                          "customerIdentificationDocuments": [],
+                          "customerPhones": [],
+                          "customerEmails": [],
+                          "locations": [],
+                          "customerGroups": []
+                      },
+                      "locationTypes": [],
+                      "locationBusinessLines": [],
+                      "active": false,
+                      "headquarter": false,
+                      "description": "Location 2 inactive - 9681511458995",
+                      "standard": false,
+                      "locationPhones": [],
+                      "locationEmails": [],
+                      "areas": [],
+                      "locationIdentificationDocuments": []
+                  },
+                  {
+                      "id": "f53a483a-d9cb-4e29-b5d7-6ebf9e04ee27",
+                      "createdAt": "2017-11-23T17:43:10.758Z",
+                      "updatedAt": "2017-11-23T17:43:10.758Z",
+                      "customer": {
+                          "id": "021a5f09-9981-4029-a7c1-f7e3ab0eef18",
+                          "customerIdentificationDocuments": [],
+                          "customerPhones": [],
+                          "customerEmails": [],
+                          "locations": [],
+                          "customerGroups": []
+                      },
+                      "locationTypes": [],
+                      "locationBusinessLines": [],
+                      "active": true,
+                      "headquarter": false,
+                      "description": "Location 3 active - 8401511458995",
+                      "standard": false,
+                      "locationPhones": [],
+                      "locationEmails": [],
+                      "areas": [],
+                      "locationIdentificationDocuments": []
+                  }
+              ],
+              "customerGroups": []
+          },
+          "contactPhones": [],
+          "contactEmails": [],
+          "active": true,
+          "name": "Contact active - 2281511459003"
+      },
+      {
+          "id": "a85e620f-73a8-436d-8283-cd938f55e5fd",
+          "createdAt": "2017-11-23T17:46:36.323Z",
+          "updatedAt": "2017-11-23T17:46:36.323Z",
+          "customer": {
+              "id": "328b256f-f7e6-4f81-874a-17f2b532201f",
+              "createdAt": "2017-11-23T17:46:33.704Z",
+              "updatedAt": "2017-11-23T17:46:33.704Z",
+              "active": true,
+              "name": "Customer active service - 6971511459197",
+              "customerSince": "2017-11-23",
+              "customerIdentificationDocuments": [],
+              "customerPhones": [],
+              "customerEmails": [],
+              "locations": [
+                  {
+                      "id": "bb2e9ed3-8b2f-4b58-a396-f84c853e1112",
+                      "createdAt": "2017-11-23T17:46:33.705Z",
+                      "updatedAt": "2017-11-23T17:46:33.705Z",
+                      "customer": {
+                          "id": "328b256f-f7e6-4f81-874a-17f2b532201f",
+                          "customerIdentificationDocuments": [],
+                          "customerPhones": [],
+                          "customerEmails": [],
+                          "locations": [],
+                          "customerGroups": []
+                      },
+                      "locationTypes": [],
+                      "locationBusinessLines": [],
+                      "active": true,
+                      "headquarter": false,
+                      "description": "Location put1 service - 8131511459197",
+                      "standard": false,
+                      "locationPhones": [],
+                      "locationEmails": [],
+                      "areas": [],
+                      "locationIdentificationDocuments": [],
+                      "centralPointMappingId": "5e2c7ee9-c5b8-473e-b429-16dd3dc1b8f1"
+                  },
+                  {
+                      "id": "ec37268a-a76a-4208-911e-1a743f39dfef",
+                      "createdAt": "2017-11-23T17:46:33.705Z",
+                      "updatedAt": "2017-11-23T17:46:33.705Z",
+                      "customer": {
+                          "id": "328b256f-f7e6-4f81-874a-17f2b532201f",
+                          "customerIdentificationDocuments": [],
+                          "customerPhones": [],
+                          "customerEmails": [],
+                          "locations": [],
+                          "customerGroups": []
+                      },
+                      "locationTypes": [],
+                      "locationBusinessLines": [],
+                      "active": false,
+                      "headquarter": false,
+                      "description": "Location put2 service - 7861511459197",
+                      "standard": false,
+                      "locationPhones": [],
+                      "locationEmails": [],
+                      "areas": [],
+                      "locationIdentificationDocuments": []
+                  }
+              ],
+              "customerGroups": []
+          },
+          "contactPhones": [],
+          "contactEmails": [],
+          "location": {
+              "id": "bb2e9ed3-8b2f-4b58-a396-f84c853e1112",
+              "createdAt": "2017-11-23T17:46:33.705Z",
+              "updatedAt": "2017-11-23T17:46:33.705Z",
+              "customer": {
+                  "id": "328b256f-f7e6-4f81-874a-17f2b532201f",
+                  "customerIdentificationDocuments": [],
+                  "customerPhones": [],
+                  "customerEmails": [],
+                  "locations": [],
+                  "customerGroups": []
+              },
+              "locationTypes": [],
+              "locationBusinessLines": [],
+              "active": true,
+              "headquarter": false,
+              "description": "Location put1 service - 8131511459197",
+              "standard": false,
+              "locationPhones": [],
+              "locationEmails": [],
+              "areas": [],
+              "locationIdentificationDocuments": [],
+              "centralPointMappingId": "5e2c7ee9-c5b8-473e-b429-16dd3dc1b8f1"
+          },
+          "active": true,
+          "name": "Contact active - 4671511459200"
+      }
+  ],
+  "users": [
+      {
+          "id": "7636f630-2358-4cf4-a290-2ec0b13ea47c",
+          "createdAt": "2016-09-15T12:07:39.497257Z",
+          "updatedAt": "2016-10-19T18:17:40.879Z",
+          "userGroup": {
+              "id": "8c258155-87ef-4c29-a8e1-b4a65f5005ac",
+              "createdAt": "2016-09-15T19:17:07.990Z",
+              "updatedAt": "2016-09-15T19:17:07.990Z",
+              "description": "Grupo de Administradores",
+              "active": true
+          },
+          "active": true,
+          "name": "Administrador",
+          "username": "admin@teste.com",
+          "loginTentatives": 0,
+          "administrator": true,
+          "passwordBlocked": false,
+          "userIdentificationDocument": [],
+          "userPhoneNumber": [],
+          "userEmail": [],
+          "companyName": "WS",
+          "companyId": "cb610f22-f6ca-4088-9bef-35461b021705",
+          "userHierarchies": [],
+          "profile": {
+              "id": "6c2ccdb7-0003-444b-995e-2c7d39631c1d",
+              "createdAt": "2016-09-15T12:07:39.497257Z",
+              "updatedAt": "2016-09-26T15:07:52.633Z",
+              "description": "admin",
+              "active": true,
+              "profileResourceConfiguration": [],
+              "permissions": [
+                  {
+                      "id": "2b780cbb-dff8-4acd-93d6-d6e43fecce98",
+                      "createdAt": "2016-09-15T12:07:39.497257Z",
+                      "updatedAt": "2016-09-15T12:07:39.497257Z",
+                      "permission": "*"
+                  }
+              ],
+              "standard": true
+          },
+          "validLicense": true
+      },
+      {
+          "id": "aaf88a39-4a33-4068-8b21-e8cc9b162cab",
+          "createdAt": "2017-11-23T17:44:26.155Z",
+          "updatedAt": "2017-11-23T17:44:26.155Z",
+          "active": true,
+          "name": "USER active - 3551511459070",
+          "username": "9691511459070@wssim.com.br",
+          "loginTentatives": 0,
+          "administrator": true,
+          "passwordBlocked": false,
+          "lastChangePassword": "2017-11-23",
+          "userIdentificationDocument": [],
+          "userPhoneNumber": [],
+          "userEmail": [],
+          "companyName": "Company 1511459069",
+          "companyId": "10a39cdb-6f60-4df6-b7d9-065da5619347",
+          "userHierarchies": [],
+          "profile": {
+              "id": "6c2ccdb7-0003-444b-995e-2c7d39631c1d",
+              "createdAt": "2016-09-15T12:07:39.497257Z",
+              "updatedAt": "2016-09-26T15:07:52.633Z",
+              "description": "admin",
+              "active": true,
+              "profileResourceConfiguration": [],
+              "permissions": [
+                  {
+                      "id": "2b780cbb-dff8-4acd-93d6-d6e43fecce98",
+                      "createdAt": "2016-09-15T12:07:39.497257Z",
+                      "updatedAt": "2016-09-15T12:07:39.497257Z",
+                      "permission": "*"
+                  }
+              ],
+              "standard": true
+          },
+          "validLicense": true,
+          "timeZoneDescription": "Brazil - Distrito Federal, Espirito Santo, Goias, Minas Gerais, Parana, Rio de Janeiro, Rio Grande do Sul, Santa Catarina, Sao Paulo",
+          "timeZoneId": "9f596395-2f8f-43ec-b7ab-9345d173ca13"
+      },
+      {
+          "id": "fd3cfa6a-4d83-4dd7-842e-77f8dceaa8ec",
+          "createdAt": "2017-11-23T17:44:26.733Z",
+          "updatedAt": "2017-11-23T17:44:26.733Z",
+          "active": false,
+          "name": "USER inactive - 8891511459071",
+          "username": "7741511459071@wssim.com.br",
+          "loginTentatives": 0,
+          "administrator": true,
+          "passwordBlocked": false,
+          "lastChangePassword": "2017-11-23",
+          "userIdentificationDocument": [],
+          "userPhoneNumber": [],
+          "userEmail": [],
+          "companyName": "Company 1511459069",
+          "companyId": "10a39cdb-6f60-4df6-b7d9-065da5619347",
+          "userHierarchies": [],
+          "profile": {
+              "id": "6c2ccdb7-0003-444b-995e-2c7d39631c1d",
+              "createdAt": "2016-09-15T12:07:39.497257Z",
+              "updatedAt": "2016-09-26T15:07:52.633Z",
+              "description": "admin",
+              "active": true,
+              "profileResourceConfiguration": [],
+              "permissions": [
+                  {
+                      "id": "2b780cbb-dff8-4acd-93d6-d6e43fecce98",
+                      "createdAt": "2016-09-15T12:07:39.497257Z",
+                      "updatedAt": "2016-09-15T12:07:39.497257Z",
+                      "permission": "*"
+                  }
+              ],
+              "standard": true
+          },
+          "validLicense": true,
+          "timeZoneDescription": "Brazil - Distrito Federal, Espirito Santo, Goias, Minas Gerais, Parana, Rio de Janeiro, Rio Grande do Sul, Santa Catarina, Sao Paulo",
+          "timeZoneId": "9f596395-2f8f-43ec-b7ab-9345d173ca13"
+      },
+      {
+          "id": "4a6ff230-b020-40b1-b0dd-cdc70d4a0bfc",
+          "createdAt": "2017-11-23T17:46:39.889Z",
+          "updatedAt": "2017-11-23T17:46:39.889Z",
+          "active": true,
+          "name": "USER active - 1511459204",
+          "username": "1511459204@wssim.com.br",
+          "loginTentatives": 0,
+          "administrator": true,
+          "passwordBlocked": false,
+          "lastChangePassword": "2017-11-23",
+          "userIdentificationDocument": [],
+          "userPhoneNumber": [],
+          "userEmail": [],
+          "companyName": "Company 1511459069",
+          "companyId": "10a39cdb-6f60-4df6-b7d9-065da5619347",
+          "userHierarchies": [],
+          "profile": {
+              "id": "6c2ccdb7-0003-444b-995e-2c7d39631c1d",
+              "createdAt": "2016-09-15T12:07:39.497257Z",
+              "updatedAt": "2016-09-26T15:07:52.633Z",
+              "description": "admin",
+              "active": true,
+              "profileResourceConfiguration": [],
+              "permissions": [
+                  {
+                      "id": "2b780cbb-dff8-4acd-93d6-d6e43fecce98",
+                      "createdAt": "2016-09-15T12:07:39.497257Z",
+                      "updatedAt": "2016-09-15T12:07:39.497257Z",
+                      "permission": "*"
+                  }
+              ],
+              "standard": true
+          },
+          "validLicense": true,
+          "timeZoneDescription": "Brazil - Distrito Federal, Espirito Santo, Goias, Minas Gerais, Parana, Rio de Janeiro, Rio Grande do Sul, Santa Catarina, Sao Paulo",
+          "timeZoneId": "9f596395-2f8f-43ec-b7ab-9345d173ca13"
+      }
+  ],
+  "mappings": [
+    {
+        "id": "5e2c7ee9-c5b8-473e-b429-16dd3dc1b8f1",
+        "createdAt": "2017-11-23T17:43:05.880Z",
+        "updatedAt": "2017-11-23T17:43:05.880Z",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -24.0001,
+                -53.0001,
+                0
+            ]
+        },
+        "geometryType": "Point"
+    }
+  ]
+}

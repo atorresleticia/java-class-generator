@@ -1,0 +1,19 @@
+{
+  "name": "calendar",
+  "version": "1.1.0",
+  "description": "Este módulo tem como objetivo a manipulação da agenda.",
+  "main": "server",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.wssim.com.br/cloud/calendar.git"
+  },
+  "author": "Renan Felipe Arend",
+  "license": "ISC",
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "json-server": "^0.12.1"
+  }
+}
