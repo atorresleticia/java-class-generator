@@ -1,6 +1,5 @@
 package utils;
 
-import generator.Generator;
 import org.w3c.dom.Document;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
@@ -16,17 +15,9 @@ import java.util.stream.Stream;
 
 public class FileScanner {
 
-    private Generator generator;
-
-    public FileScanner(Generator generator) {
-        this.generator = generator;
-    }
-
     public FileScanner() {}
 
     public File copy(Path source, Path destination, String fileName) throws IOException {
-
-        System.out.println(fileName);
 
         if(!Files.exists(destination)) {
             try {
