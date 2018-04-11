@@ -1,0 +1,20 @@
+{
+  "javax.validation.constraints.NotNull.message" : {
+    "message" : "Este campo é obrigatório."
+  },
+  "javax.validation.constraints.Size.message": {
+    "message": "Tamanho deve estar entre {1} e {3}."
+  },
+  "javax.validation.constraints.Pattern.message": {
+    "message": "Deve corresponder à {2}."
+  },
+  "startDate.after.endDate" : {
+    "message" : "A data/hora inicial da agenda não pode ser posterior a data/hora final."
+  },
+  "org.postgresql.util.PSQLException.foreignKeyViolation" : {
+    "message" : "Insert ou update na tabela viola uma ou mais restrições de chave estrangeira"
+  },
+  "calendar.type.not.valid" : {
+    "message" : "O tipo de agenda informado não é válido."
+  }
+}

@@ -1,0 +1,241 @@
+buildscript {
+    project.ext {
+        commons = "5.5.3"
+        recordPermission = "2.0.0"
+        generateClient = false
+        deltaspike = "1.7.1"
+        wayland = "3.0.1"
+        weld = "2.4.3.Final"
+    }
+    repositories {
+        maven {
+            url 'http://nexus.wssim.com.br/repository/cloud-all/'
+        }
+    }
+
+    dependencies {
+        classpath ("com.ws:commons:$commons") {
+            exclude: 'io.ebean:ebean'
+        }
+        classpath 'com.bmuschko:gradle-nexus-plugin:2.3.1'
+        classpath "com.sollar:record-permission:$recordPermission"
+        classpath files("$projectDir/src/main/resources")
+        classpath "br.com.wealthsystems:wayland:$wayland"
+    }
+}
+
+plugins {
+    id "org.sonarqube" version "2.5"
+    id "org.flywaydb.flyway" version "4.2.0"
+}
+
+apply plugin: "jacoco"
+apply plugin: 'wayland'
+apply plugin: 'com.bmuschko.nexus'
+apply plugin: 'idea'
+
+repositories {
+    maven {
+        url 'http://nexus.wssim.com.br/repository/cloud-all/'
+    }
+}
+
+idea {
+    module {
+        outputDir file('build/classes/java/main')
+        testOutputDir file('build/classes/java/test')
+    }
+}
+
+group="infraws"
+version="1.0.0"
+
+sourceCompatibility=1.8
+
+mainClassName="com.ws.calendar.Main"
+
+dependencies {
+
+    compile "com.ws:commons:$commons"
+    compile "com.sollar:record-permission:$recordPermission"
+
+    compile ('infraws:user:8.1.0:client'){
+        transitive = false
+    }
+
+    compile ('infraws:accounts:2.3.0:client'){
+        transitive = false
+    }
+
+    testCompile ('com.sollar:commons-test:2.1.0-SNAPSHOT'){
+        exclude group: 'javax.enterprise'
+        exclude group: 'org.jboss.weld.se'
+    }
+
+    testCompile 'com.mashape.unirest:unirest-java:1.4.9'
+    testCompile 'com.wealthlabs:bugrocker:0.5.0'
+    testCompile 'com.sollar.libs:sollarAction:0.7.9'
+
+    testCompile "org.apache.deltaspike.modules:deltaspike-test-control-module-api:$deltaspike"
+    testCompile "org.apache.deltaspike.modules:deltaspike-test-control-module-impl:$deltaspike"
+    testCompile "org.apache.deltaspike.cdictrl:deltaspike-cdictrl-weld:$deltaspike"
+    testCompile "org.jboss.weld.se:weld-se-core:$weld"
+}
+
+sourceSets{
+    postman {
+        java{
+            srcDirs = ['src/main/java', 'src/postman/java/']
+        }
+        resources {
+            srcDir 'src/postman/resources'
+        }
+        compileClasspath += sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.runtimeClasspath
+    }
+}
+
+flyway {
+    locations = ['filesystem:migrations/postgres/ddl']
+}
+
+/* ------------------------------------------------- EXTERNAL TASKS ------------------------------------------------- */
+//task integrationTest(type: Test){
+//    useTestNG()
+//    ignoreFailures = true
+//    forkEvery = 1
+//    environment "db.url.IntegrationTest", "jdbc:postgresql://pg-dev.sollar.ws1:5432/postgres"
+//    environment "db.schema.IntegrationTest", "user_integration_test"
+//    environment "db.schema.IntegrationTest", "public"
+//    environment "db.username.IntegrationTest", "sollar"
+//    environment "db.password.IntegrationTest", "Ws@18012001"
+//}
+//
+
+task pipelineBuild(type: Docker) {
+    def isValidVersion  = "$version".matches("([0-9]{1,2})([.][0-9]{1,2})([.][0-9]{1,2})\$")
+    def isDevelopment   = "development" == System.env.CI_COMMIT_REF_NAME
+    def qaBranchMatcher = "^([a-z]+)(-[a-z]+)*-([0-9]+)([.][0-9]+)([.][0-9]+)?\$"
+    def isPrd           = "master" == System.env.CI_COMMIT_REF_NAME
+
+    if (!isValidVersion) {
+        throw new GradleException('version var must follow semantic versionsing pattern x.x.x')
+    }
+
+    switch (true) {
+        case isDevelopment :
+            version = version
+            break
+        case !isPrd:
+            version = version + "-$System.env.CI_COMMIT_REF_NAME"
+            break
+    }
+
+    // write release info properties
+    def file = new File("release-info.properties")
+    file.text = "ci.pipeline.id=$System.env.CI_PIPELINE_ID\n" +
+            "ci.job.id=$System.env.CI_JOB_ID"
+
+    doFirst {
+
+        applicationName = project.applicationName
+        addFile project.distTar.outputs.files.singleFile
+        addFile file
+
+        setEnvironment("org.apache.deltaspike.ProjectStage", "Production")
+        setEnvironment("service.name", project.name)
+        exposePort(80)
+
+        def installDir = "/" + project.distTar.archiveName - ".${project.distTar.extension}"
+        entryPoint = ["$installDir/bin/${project.applicationName}"]
+    }
+
+    docker{
+        push = true
+    }
+}
+
+// Export and change docker-compose file for uploading the right service version on cloud
+task pipelineUpdateDockerCompose(type: Exec){
+    executable "sh"
+    def rancherEnvironment = project.hasProperty('rancherEnvironment') ? rancherEnvironment : null
+    args "-c", "rancher --env $rancherEnvironment export qion-cloud && " +
+            "sed -i '/image: infraws\\/$project.applicationName:*/c\\\\    image: infraws\\/$project.applicationName:$version' qion-cloud/docker-compose.yml"
+}
+
+sonarqube {
+    properties {
+        property "sonar.sourceEncoding", "UTF-8"
+        property "sonar.host.url", "http://wl-sonarqube.sollar.ws1/"
+
+        def analysisMode = project.hasProperty('sonarqubeAnalysisMode') ? sonarqubeAnalysisMode : null
+
+        if (analysisMode != null) {
+            property "sonar.analysis.mode", analysisMode
+        }
+
+        if (System.env.CI_PROJECT_PATH != null
+                && System.env.CI_COMMIT_SHA != null
+                && System.env.CI_COMMIT_REF_NAME != null
+                && analysisMode == "preview") {
+
+            property "sonar.gitlab.project_id", System.env.CI_PROJECT_PATH
+            property "sonar.gitlab.commit_sha", System.env.CI_COMMIT_SHA
+            property "sonar.gitlab.ref_name",   System.env.CI_COMMIT_REF_NAME
+        }
+
+        property "sonar.jacoco.reportPath", "$buildDir/jacoco/test.exec"
+        property "sonar.jacoco.itReportPath", "$buildDir/jacoco/integrationTest.exec"
+        property "sonar.login", "45c64adb91817394e3a9d0e65a3043fb42c8694a"
+        property "sonar.scm.disabled", "true"
+    }
+}
+
+configurations.all {
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+    //exclude log duplicate not necessary
+    exclude module: 'slf4j-log4j12'
+    exclude module: 'slf4j-simple'
+}
+
+task runPostmanTest(type: JavaExec) {
+    classpath = sourceSets.postman.runtimeClasspath + classpath
+    main = 'com.ws.calendar.Main'
+    jvmArgs "-javaagent:$projectDir/ebean-agent-10.1.2.jar"
+}
+
+/* ----------------------------------------------------- TASKS ------------------------------------------------------ */
+uploadArchives {
+    configurations.archives.with {
+        artifacts.remove artifacts.find { it.archiveTask.is distZip }
+        artifacts.remove artifacts.find { it.archiveTask.is distTar }
+    }
+}
+
+jacocoTestReport {
+    reports {
+        html.destination "${buildDir}/reports/jacoco"
+    }
+}
+
+// -- uploadArchives Nexus
+extraArchive {
+    sources = false
+    tests = false
+    javadoc = false
+}
+
+nexus {
+    sign = false
+    repositoryUrl = 'http://nexus.wssim.com.br/repository/cloud-release/'
+    snapshotRepositoryUrl = 'http://nexus.wssim.com.br/repository/cloud-snapshot/'
+}
+
+wayland {
+    settings {
+        enhancement {
+            rootPackage = "com.ws.calendar"
+            additionalPackages = "com.ws.commons,com.sollar.commons,br.com.wealthsystems.commons,com.sollar";
+        }
+    }
+}

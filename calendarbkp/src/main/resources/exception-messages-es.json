@@ -1,0 +1,10 @@
+{
+  "com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException": {
+    "code": "ERR-100001",
+    "message": "Una o más propiedades no fueron reconocidas"
+  },
+  "com.fasterxml.jackson.databind.exc.InvalidFormatException": {
+    "code": "ERR-100002",
+    "message": "Una o más propiedades están con formatos inválidos"
+  }
+}

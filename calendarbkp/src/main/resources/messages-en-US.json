@@ -1,0 +1,11 @@
+{
+  "javax.validation.constraints.NotNull.message" : {
+    "message" : "This field is required."
+  },
+  "javax.validation.constraints.Size.message": {
+    "message": "Size must be between {1} and {3}."
+  },
+  "javax.validation.constraints.Pattern.message": {
+    "message": "Must match {2}."
+  }
+}

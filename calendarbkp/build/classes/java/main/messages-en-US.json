@@ -1,0 +1,20 @@
+{
+  "javax.validation.constraints.NotNull.message" : {
+    "message" : "This field is required."
+  },
+  "javax.validation.constraints.Size.message": {
+    "message": "Size must be between {1} and {3}."
+  },
+  "javax.validation.constraints.Pattern.message": {
+    "message": "Must match {2}."
+  },
+  "startDate.after.endDate" : {
+    "message" : "The start date/time of the calendar can not be after the end date/time."
+  },
+  "org.postgresql.util.PSQLException.foreignKeyViolation" : {
+    "message" : "Insert or update in table violates one or more foreign key constraints"
+  },
+  "calendar.type.not.valid" : {
+    "message" : "The calendar type informed is not valid."
+  }
+}
